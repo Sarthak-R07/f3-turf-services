@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/f3-turf-services/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
