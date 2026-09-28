@@ -1,0 +1,6 @@
+{
+  "name": "F3 Turf Services | Football, Box Cricket & Sports Events",
+  "description": "F3 Turf Services offers football, box cricket, tournaments, corporate events, sports days and live sports screening. Book your slot or enquire about an event.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
