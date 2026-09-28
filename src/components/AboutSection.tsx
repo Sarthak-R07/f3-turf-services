@@ -29,7 +29,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onDiscover }) => {
                 aspectRatio="3/2"
                 label="F3 Turf Sports Community"
                 sublabel="F3 team and athletes in official kits"
-                initialSrc="/turf-real/real_turf_5.jpg"
+                initialSrc={import.meta.env.BASE_URL + "turf-real/real_turf_5.jpg"}
                 className="w-full rounded-xl overflow-hidden"
               />
             </div>

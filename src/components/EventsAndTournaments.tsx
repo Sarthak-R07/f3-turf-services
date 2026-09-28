@@ -110,7 +110,7 @@ export const EventsAndTournaments: React.FC<EventsAndTournamentsProps> = ({
                 aspectRatio="4/3"
                 label="F3 Tournament Arena"
                 sublabel="Championship matches, team celebrations & floodlit arena events"
-                initialSrc="/turf-real/f3_tournament_arena.jpg"
+                initialSrc={import.meta.env.BASE_URL + "turf-real/f3_tournament_arena.jpg"}
                 className="w-full rounded-2xl shadow-2xl border border-[#2A2A2A] overflow-hidden"
               />
             </div>

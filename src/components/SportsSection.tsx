@@ -37,7 +37,7 @@ export const SportsSection: React.FC<SportsSectionProps> = ({ onSelectSport }) =
                   aspectRatio="16/9"
                   label="F3 Football Arena"
                   sublabel="Floodlit arena with professional goalpost and safety perimeter netting"
-                  initialSrc="/turf-real/football_turf.jpg"
+                  initialSrc={import.meta.env.BASE_URL + "turf-real/football_turf.jpg"}
                   className="w-full rounded-xl overflow-hidden"
                 />
               </div>
@@ -85,7 +85,7 @@ export const SportsSection: React.FC<SportsSectionProps> = ({ onSelectSport }) =
                   aspectRatio="16/9"
                   label="F3 Box Cricket Arena"
                   sublabel="Tournament match action, crease markings, and high-tension netting"
-                  initialSrc="/turf-real/box_cricket.jpg"
+                  initialSrc={import.meta.env.BASE_URL + "turf-real/box_cricket.jpg"}
                   className="w-full rounded-xl overflow-hidden"
                 />
               </div>

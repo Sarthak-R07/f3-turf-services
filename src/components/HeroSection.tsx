@@ -94,7 +94,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 aspectRatio="4/3"
                 label="F3 Turf Arena"
                 sublabel="Night view of F3 floodlit sports turf and arena"
-                initialSrc="/turf-real/real_turf_4.jpg"
+                initialSrc={import.meta.env.BASE_URL + "turf-real/real_turf_4.jpg"}
                 className="w-full rounded-xl overflow-hidden"
               />
             </div>
